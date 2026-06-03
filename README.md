@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KACA FERRAGENS – Tudo para sua obra, reforma e manutenção. Ferragens, ferramentas, hidráulica e muito mais em Brasília–DF. Ligue (61) 3399-2665 ou chame no WhatsApp." />
+  <meta name="keywords" content="ferragens, ferramentas, hidráulica, parafusos, Makita, materiais de construção, Brasília, DF, KACA FERRAGENS" />
+  <meta property="og:title" content="KACA FERRAGENS – Ferragens, Ferramentas e Hidráulica" />
+  <meta property="og:description" content="Tudo para sua obra, reforma e manutenção. Atendimento especializado há mais de 30 anos." />
+  <meta property="og:type" content="website" />
+  <title>KACA FERRAGENS – Ferragens, Ferramentas e Hidráulica em Brasília-DF</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-inner container">
+      <a href="#hero" class="logo" aria-label="KACA FERRAGENS – Página inicial">
+        <span class="logo-text">KACA <span class="logo-text--yellow">FERRAGENS</span></span>
+      </a>
+
+      <nav class="nav-main" id="nav-main" role="navigation" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#produtos" class="nav-link">Produtos</a></li>
+          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+          <li><a href="#horarios" class="nav-link">Horários</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a
+        href="https://wa.me/5561985662974?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações."
+        class="btn btn-whatsapp header-wa"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="header-whatsapp-btn"
+        aria-label="Falar no WhatsApp"
+      >
+        <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+        </svg>
+        WhatsApp
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-main">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-label="Banner principal">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <img
+      src="./images/fachada.jpg"
+      alt="Fachada da KACA FERRAGENS – loja especializada em ferragens, ferramentas e hidráulica"
+      class="hero-bg"
+      loading="eager"
+    />
+
+    <div class="hero-content container" data-animate="fade-up">
+      <div class="hero-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        Desde 1994 – Tradição e Qualidade
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-kaca">KACA</span> <span class="hero-ferragens">FERRAGENS</span>
+      </h1>
+      <p class="hero-slogan">Tudo para sua obra, reforma e manutenção.</p>
+      <p class="hero-sub">Ferragens · Ferramentas · Hidráulica · Construção Civil</p>
+
+      <div class="hero-actions">
+        <a
+          href="https://wa.me/5561985662974?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações."
+          class="btn btn-whatsapp btn-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="hero-whatsapp-btn"
+          aria-label="Entrar em contato pelo WhatsApp"
+        >
+          <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          Chamar no WhatsApp
+        </a>
+        <a
+          href="tel:+556133992665"
+          class="btn btn-outline btn-lg"
+          id="hero-phone-btn"
+          aria-label="Ligar para KACA FERRAGENS"
+        >
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor">
+            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.61 21 3 14.39 3 6c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          Ligar Agora
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">+30</span>
+          <span class="stat-label">Anos de<br>experiência</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">+5mil</span>
+          <span class="stat-label">Produtos<br>disponíveis</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">6 dias</span>
+          <span class="stat-label">Por semana<br>atendendo</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#sobre" class="hero-scroll" aria-label="Rolar para a próxima seção">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor">
+        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section sobre" id="sobre" aria-labelledby="sobre-title">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-eyebrow">Quem somos</span>
+        <h2 class="section-title" id="sobre-title">Tradição e Confiança <br>desde <span class="highlight">1994</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="sobre-grid">
+        <div class="sobre-text" data-animate="fade-right">
+          <p class="sobre-lead">
+            A <strong>KACA FERRAGENS</strong> é uma loja especializada em ferragens, ferramentas,
+            hidráulica e materiais para manutenção residencial e profissional, com décadas de
+            atuação na região.
+          </p>
+          <p>
+            Atendemos clientes residenciais, autônomos e profissionais da construção civil:
+            encanadores, eletricistas, pedreiros, serralheiros e muito mais. Nosso compromisso
+            é oferecer <strong>variedade de produtos, atendimento próximo</strong> e soluções
+            completas para obras, reformas e manutenção.
+          </p>
+          <p>
+            Com preços competitivos e estoque diversificado, somos a referência em ferragens
+            e materiais de construção na nossa região.
+          </p>
+
+          <div class="sobre-contatos">
+            <a href="tel:+556133992665" class="contact-pill" id="sobre-phone-link" aria-label="Telefone fixo">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.61 21 3 14.39 3 6c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              (61) 3399-2665
+            </a>
+            <a
+              href="https://wa.me/5561985662974"
+              class="contact-pill contact-pill--wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="sobre-whatsapp-link"
+              aria-label="WhatsApp"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+              </svg>
+              +55 61 98566-2974
+            </a>
+          </div>
+        </div>
+
+        <div class="sobre-cards" data-animate="fade-left">
+          <div class="info-card">
+            <div class="info-card__icon" aria-hidden="true">🏆</div>
+            <div class="info-card__body">
+              <strong>+30 Anos</strong>
+              <span>Servindo a região com tradição</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card__icon" aria-hidden="true">📦</div>
+            <div class="info-card__body">
+              <strong>+5.000 Itens</strong>
+              <span>Amplo estoque de produtos</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card__icon" aria-hidden="true">🔧</div>
+            <div class="info-card__body">
+              <strong>Atendimento Especializado</strong>
+              <span>Equipe pronta para ajudar você</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card__icon" aria-hidden="true">💰</div>
+            <div class="info-card__body">
+              <strong>Preço Competitivo</strong>
+              <span>Melhor custo-benefício da região</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="section produtos" id="produtos" aria-labelledby="produtos-title">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-eyebrow">Nosso catálogo</span>
+        <h2 class="section-title" id="produtos-title">Categorias de <span class="highlight">Produtos</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+        <p class="section-desc">Amplo estoque para atender profissionais e clientes residenciais</p>
+      </div>
+
+      <div class="produtos-grid" role="list">
+
+        <article class="produto-card produto-card--accent" data-animate="fade-up" data-delay="0" role="listitem">
+          <div class="produto-card__body produto-card__body--solo">
+            <div class="produto-card__icon" aria-hidden="true">🔨</div>
+            <h3 class="produto-card__title">Ferramentas</h3>
+            <ul class="produto-card__list" aria-label="Produtos da categoria Ferramentas">
+              <li>Furadeiras Makita</li>
+              <li>Alicates e Chaves de Boca</li>
+              <li>Martelos e Serrotes</li>
+              <li>Tico-tico e Discos de Corte</li>
+              <li>Ferramentas manuais em geral</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="produto-card produto-card--accent" data-animate="fade-up" data-delay="100" role="listitem">
+          <div class="produto-card__body produto-card__body--solo">
+            <div class="produto-card__icon" aria-hidden="true">🚿</div>
+            <h3 class="produto-card__title">Hidráulica</h3>
+            <ul class="produto-card__list" aria-label="Produtos da categoria Hidráulica">
+              <li>Torneiras e Válvulas</li>
+              <li>Canos e Conexões PVC</li>
+              <li>Boias para caixa d'água</li>
+              <li>Assentos sanitários</li>
+              <li>Materiais hidráulicos em geral</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="produto-card produto-card--accent" data-animate="fade-up" data-delay="200" role="listitem">
+          <div class="produto-card__body produto-card__body--solo">
+            <div class="produto-card__icon" aria-hidden="true">🔒</div>
+            <h3 class="produto-card__title">Ferragens</h3>
+            <ul class="produto-card__list" aria-label="Produtos da categoria Ferragens">
+              <li>Fechaduras e Cadeados</li>
+              <li>Correntes e Acessórios</li>
+              <li>Parafusos em geral</li>
+              <li>Dobradiças e Puxadores</li>
+              <li>Acessórios para portas e janelas</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="produto-card produto-card--accent" data-animate="fade-up" data-delay="0" role="listitem">
+          <div class="produto-card__body produto-card__body--solo">
+            <div class="produto-card__icon" aria-hidden="true">🔩</div>
+            <h3 class="produto-card__title">Fixação</h3>
+            <ul class="produto-card__list" aria-label="Produtos da categoria Fixação">
+              <li>Parafusos e Porcas</li>
+              <li>Arruelas e Pinos</li>
+              <li>Buchas e Rebites</li>
+              <li>Abraçadeiras</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="produto-card produto-card--accent" data-animate="fade-up" data-delay="100" role="listitem">
+          <div class="produto-card__body produto-card__body--solo">
+            <div class="produto-card__icon" aria-hidden="true">⚡</div>
+            <h3 class="produto-card__title">Elétrica</h3>
+            <ul class="produto-card__list" aria-label="Produtos da categoria Elétrica">
+              <li>Boias elétricas</li>
+              <li>Fios e Cabos</li>
+              <li>Tomadas e Interruptores</li>
+              <li>Acessórios elétricos</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="produto-card produto-card--accent" data-animate="fade-up" data-delay="200" role="listitem">
+          <div class="produto-card__body produto-card__body--solo">
+            <div class="produto-card__icon" aria-hidden="true">🏗️</div>
+            <h3 class="produto-card__title">Construção</h3>
+            <ul class="produto-card__list" aria-label="Produtos da categoria Construção">
+              <li>Materiais para reforma</li>
+              <li>Impermeabilizantes</li>
+              <li>Lixas e Acessórios</li>
+              <li>EPIs e Segurança</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="produtos-cta" data-animate="fade-up">
+        <p>Não encontrou o que procura? Fale conosco!</p>
+        <a
+          href="https://wa.me/5561985662974?text=Olá!%20Gostaria%20de%20saber%20se%20vocês%20têm%20um%20produto%20específico."
+          class="btn btn-whatsapp btn-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="produtos-whatsapp-btn"
+          aria-label="Consultar produto pelo WhatsApp"
+        >
+          <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          Consultar pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section diferenciais" id="diferenciais" aria-labelledby="diferenciais-title">
+    <div class="diferenciais-bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-eyebrow">Por que nos escolher</span>
+        <h2 class="section-title" id="diferenciais-title">Nossos <span class="highlight">Diferenciais</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="diferenciais-grid" role="list">
+        <div class="diferencial-item" data-animate="zoom-in" data-delay="0" role="listitem">
+          <div class="diferencial-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/><path d="M20 32l8 8 16-16" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Atendimento Especializado</h3>
+          <p>Nossa equipe conhece cada produto e vai te ajudar a encontrar a solução certa para sua necessidade.</p>
+        </div>
+        <div class="diferencial-item" data-animate="zoom-in" data-delay="100" role="listitem">
+          <div class="diferencial-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/><rect x="16" y="20" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2.5"/><path d="M24 20v-4M40 20v-4M16 28h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Grande Variedade</h3>
+          <p>Mais de 5.000 produtos em estoque para atender do pequeno reparo à grande obra com agilidade.</p>
+        </div>
+        <div class="diferencial-item" data-animate="zoom-in" data-delay="200" role="listitem">
+          <div class="diferencial-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/><path d="M32 16v16l10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Atendimento Rápido</h3>
+          <p>Sem filas demoradas. Encontre o produto, tire sua dúvida e saia rapidamente com tudo que precisa.</p>
+        </div>
+        <div class="diferencial-item" data-animate="zoom-in" data-delay="0" role="listitem">
+          <div class="diferencial-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/><path d="M32 18c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14z" stroke="currentColor" stroke-width="2.5"/><path d="M32 24v8l4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Preço Competitivo</h3>
+          <p>Praticamos os melhores preços da região. Compre com qualidade e economia garantidas.</p>
+        </div>
+        <div class="diferencial-item" data-animate="zoom-in" data-delay="100" role="listitem">
+          <div class="diferencial-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/><path d="M32 18c-5 0-10 4-10 10 0 8 10 18 10 18s10-10 10-18c0-6-5-10-10-10z" stroke="currentColor" stroke-width="2.5"/><circle cx="32" cy="28" r="3" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Localização Acessível</h3>
+          <p>Ponto de fácil acesso na região, com estacionamento próximo. Venha nos visitar!</p>
+        </div>
+        <div class="diferencial-item" data-animate="zoom-in" data-delay="200" role="listitem">
+          <div class="diferencial-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/><path d="M22 40l4-8 6 4 6-10 4 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>+30 Anos de Tradição</h3>
+          <p>Empresa consolidada, com credibilidade e confiança construída ao longo de décadas na região.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORÁRIOS -->
+  <section class="section horarios" id="horarios" aria-labelledby="horarios-title">
+    <div class="container">
+      <div class="horarios-inner">
+        <div class="horarios-text" data-animate="fade-right">
+          <span class="section-eyebrow">Quando estamos abertos</span>
+          <h2 class="section-title" id="horarios-title">Horário de <span class="highlight">Funcionamento</span></h2>
+          <div class="section-line" aria-hidden="true"></div>
+          <p>Estamos aqui para atendê-lo nos horários abaixo. <br>Ligue antes ou venha direto!</p>
+
+          <div class="horarios-list" role="list" aria-label="Horários de funcionamento">
+            <div class="horario-item" role="listitem">
+              <div class="horario-days"><span class="day-icon" aria-hidden="true">📅</span><span>Segunda a Sexta</span></div>
+              <div class="horario-time"><span class="time-badge">08h às 18h</span></div>
+            </div>
+            <div class="horario-item" role="listitem">
+              <div class="horario-days"><span class="day-icon" aria-hidden="true">📅</span><span>Sábado</span></div>
+              <div class="horario-time"><span class="time-badge">08h às 15h</span></div>
+            </div>
+            <div class="horario-item" role="listitem">
+              <div class="horario-days"><span class="day-icon" aria-hidden="true">📅</span><span>Domingo</span></div>
+              <div class="horario-time"><span class="time-badge time-badge--limited">09h30 às 12h</span></div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5561985662974?text=Olá!%20Gostaria%20de%20confirmar%20o%20horário%20de%20funcionamento."
+            class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer"
+            id="horarios-whatsapp-btn" aria-label="Confirmar horário pelo WhatsApp">
+            <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+            </svg>
+            Confirmar pelo WhatsApp
+          </a>
+        </div>
+
+        <div class="horarios-visual" data-animate="fade-left" aria-hidden="true">
+          <div class="clock-wrap">
+            <div class="clock" id="live-clock">
+              <div class="clock-face">
+                <div class="clock-hand clock-hour" id="clock-hour"></div>
+                <div class="clock-hand clock-min" id="clock-min"></div>
+                <div class="clock-hand clock-sec" id="clock-sec"></div>
+                <div class="clock-center"></div>
+                <span class="clock-12">12</span>
+                <span class="clock-3">3</span>
+                <span class="clock-6">6</span>
+                <span class="clock-9">9</span>
+              </div>
+            </div>
+            <div class="clock-digital" id="clock-digital" aria-live="polite" aria-atomic="true"></div>
+            <div class="clock-status" id="clock-status"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section contato" id="contato" aria-labelledby="contato-title">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-eyebrow">Fale conosco</span>
+        <h2 class="section-title" id="contato-title">Entre em <span class="highlight">Contato</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+        <p class="section-desc">Estamos prontos para atender você. Escolha o canal de sua preferência.</p>
+      </div>
+
+      <div class="contato-grid">
+        <div class="contato-cards" data-animate="fade-right">
+          <a href="https://wa.me/5561985662974?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." class="contato-card contato-card--wa" target="_blank" rel="noopener noreferrer" id="contato-wa-card" aria-label="WhatsApp da KACA FERRAGENS">
+            <div class="contato-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </div>
+            <div class="contato-card__info">
+              <span class="contato-card__label">WhatsApp</span>
+              <strong class="contato-card__value">+55 61 98566-2974</strong>
+              <span class="contato-card__action">Toque para conversar →</span>
+            </div>
+          </a>
+
+          <a href="tel:+556133992665" class="contato-card contato-card--phone" id="contato-phone-card" aria-label="Telefone da KACA FERRAGENS">
+            <div class="contato-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.61 21 3 14.39 3 6c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div class="contato-card__info">
+              <span class="contato-card__label">Telefone Fixo</span>
+              <strong class="contato-card__value">(61) 3399-2665</strong>
+              <span class="contato-card__action">Toque para ligar →</span>
+            </div>
+          </a>
+
+          <div class="contato-card contato-card--hours" aria-label="Horário de atendimento">
+            <div class="contato-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="contato-card__info">
+              <span class="contato-card__label">Horário de Atendimento</span>
+              <ul class="contato-hours-list">
+                <li><strong>Seg–Sex:</strong> 08h às 18h</li>
+                <li><strong>Sábado:</strong> 08h às 15h</li>
+                <li><strong>Domingo:</strong> 09h30 às 12h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="contato-cta-box" data-animate="fade-left">
+          <div class="cta-box-content">
+            <h3>Pronto para atender você agora!</h3>
+            <p>Nossa equipe está disponível durante o horário de funcionamento. Mande uma mensagem no WhatsApp e receba atendimento imediato.</p>
+            <a href="https://wa.me/5561985662974?text=Olá,%20KACA%20FERRAGENS!%20Gostaria%20de%20mais%20informações."
+              class="btn btn-whatsapp btn-lg btn-full" target="_blank" rel="noopener noreferrer"
+              id="contato-main-wa-btn" aria-label="Enviar mensagem pelo WhatsApp">
+              <svg class="wa-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              Enviar Mensagem no WhatsApp
+            </a>
+            <a href="tel:+556133992665" class="btn btn-outline btn-lg btn-full" id="contato-phone-btn" aria-label="Ligar para KACA FERRAGENS">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.61 21 3 14.39 3 6c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              Ligar: (61) 3399-2665
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="logo footer-logo" aria-label="KACA FERRAGENS – Topo da página">
+              <span class="logo-text">KACA <span class="logo-text--yellow">FERRAGENS</span></span>
+            </a>
+            <p>Tudo para sua obra, reforma e manutenção. Tradição e qualidade há mais de 30 anos.</p>
+            <div class="footer-social">
+              <a href="https://wa.me/5561985662974" target="_blank" rel="noopener noreferrer"
+                class="social-icon" aria-label="WhatsApp da KACA FERRAGENS" id="footer-wa-icon">
+                <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Categorias</h4>
+            <ul class="footer-list">
+              <li><a href="#produtos">Ferramentas</a></li>
+              <li><a href="#produtos">Hidráulica</a></li>
+              <li><a href="#produtos">Ferragens</a></li>
+              <li><a href="#produtos">Fixação</a></li>
+              <li><a href="#produtos">Elétrica</a></li>
+              <li><a href="#produtos">Construção</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Empresa</h4>
+            <ul class="footer-list">
+              <li><a href="#sobre">Sobre nós</a></li>
+              <li><a href="#diferenciais">Diferenciais</a></li>
+              <li><a href="#horarios">Horários</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Contato</h4>
+            <ul class="footer-contact-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.61 21 3 14.39 3 6c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <a href="tel:+556133992665">(61) 3399-2665</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                <a href="https://wa.me/5561985662974" target="_blank" rel="noopener noreferrer">+55 61 98566-2974</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footer-year"></span> KACA FERRAGENS. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5561985662974?text=Olá,%20KACA%20FERRAGENS!%20Gostaria%20de%20mais%20informações."
+    class="wa-float" target="_blank" rel="noopener noreferrer"
+    id="wa-float-btn" aria-label="Abrir WhatsApp da KACA FERRAGENS" title="Fale pelo WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.116 1.532 5.845L.057 23.03a1 1 0 001.223 1.223l5.185-1.475A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.943 0-3.762-.537-5.314-1.467l-.38-.23-3.076.875.875-3.076-.23-.38A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    <span class="wa-float__tooltip">Fale no WhatsApp!</span>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
